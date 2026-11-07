@@ -1,0 +1,7 @@
+STC TECHNOLOGY - SITIO MULTIPÁGINA
+
+Abre index.html en tu navegador. Mantén todos los archivos juntos y conserva la carpeta imagenes.
+
+Páginas: index.html, servicios.html, articulos.html, nosotros.html y contacto.html.
+Diseño compartido: estilos.css. Logotipo independiente: imagenes/logo-stc.png.
+El botón WhatsApp conserva el número 310 782 1051 del sitio original.

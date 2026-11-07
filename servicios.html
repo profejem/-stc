@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Servicios de STC Technology: mantenimiento, soporte técnico, redes, impresoras y seguridad.">
+<title>Servicios | STC TECHNOLOGY</title>
+<link rel="stylesheet" href="estilos.css">
+<style>
+.services-hero{position:relative;overflow:hidden;color:#fff;background:linear-gradient(105deg,#21103e 0%,#4d087e 52%,#9c168f 100%);padding:55px 22px}
+.services-hero:after{content:"";position:absolute;inset:0 0 0 auto;width:53%;background:linear-gradient(90deg,#35104f 0%,transparent 45%),url("imagenes/banner-servicios.jpg") center/cover no-repeat;opacity:.78}
+.services-hero .container{position:relative;z-index:1}
+.services-hero h1{font-size:clamp(38px,6vw,62px);line-height:1.05;margin:0 0 12px;max-width:600px}
+.services-hero h1 span{color:#ffad32}
+.services-hero p{max-width:590px;font-size:18px;margin:0 0 20px}
+.eyebrow{color:#ffd18a;text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:800}
+.service-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}
+.service-card{overflow:hidden;border-radius:20px;background:#fff;border:1px solid #e9dff1;box-shadow:0 9px 28px #32105214;transition:transform .2s,box-shadow .2s}
+.service-card:hover{transform:translateY(-5px);box-shadow:0 15px 32px #32105225}
+.service-card img{width:100%;height:190px;display:block;object-fit:cover}
+.service-copy{padding:20px 21px 22px}
+.service-copy .tag{display:inline-block;background:#f3e8fb;color:#5b168b;padding:4px 10px;border-radius:20px;font-size:11px;font-weight:800;letter-spacing:.5px}
+.service-copy h2{font-size:20px;color:#4c117c;margin:10px 0 7px;line-height:1.2}
+.service-copy p{color:#625969;margin:0 0 17px;font-size:14px;min-height:66px}
+.service-link{display:inline-block;background:linear-gradient(100deg,#54108c,#a51a9c);color:#fff;text-decoration:none;padding:10px 16px;border-radius:24px;font-size:13px;font-weight:800}
+.service-link:hover{filter:brightness(1.12)}
+.benefits{display:grid;grid-template-columns:repeat(4,1fr);gap:14px}
+.benefit{background:#fff;border:1px solid #eee3f4;border-radius:14px;padding:18px;text-align:center}
+.benefit b{display:block;color:#4d117b;margin-top:6px}
+.benefit span{font-size:25px}
+.service-cta{background:linear-gradient(105deg,#3b0b65,#85139c 65%,#d52b91);color:#fff;border-radius:22px;padding:32px;text-align:center}
+.service-cta h2{margin:0 0 8px;font-size:27px}
+.service-cta p{margin:0 0 15px}
+@media(max-width:850px){.service-grid{grid-template-columns:repeat(2,1fr)}.benefits{grid-template-columns:repeat(2,1fr)}.services-hero:after{width:60%;opacity:.28}}
+@media(max-width:560px){.service-grid{grid-template-columns:1fr}.service-card img{height:220px}.services-hero{padding:48px 18px}.services-hero:after{width:100%;opacity:.18}.benefits{grid-template-columns:1fr 1fr}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="index.html"><img src="imagenes/logo-stc.png" alt="Logotipo STC Technology"><span>STC TECHNOLOGY<small>INNOVACIÓN Y SERVICIO</small></span></a>
+<nav aria-label="Menú principal">
+<a href="index.html">Inicio</a><a class="active" href="servicios.html">Servicios</a><a href="articulos.html">Artículos</a><a href="nosotros.html">Nosotros</a><a href="contacto.html">Contacto</a>
+</nav></div></header>
+<main>
+<section class="services-hero"><div class="container">
+<div class="eyebrow">Tecnología • Soporte • Soluciones</div>
+<h1>Nuestros <span>servicios</span></h1>
+<p>Soluciones tecnológicas para tu negocio y hogar. Atención cercana, soporte profesional y acompañamiento para que tu tecnología funcione mejor.</p>
+<a class="btn main" href="https://wa.me/573107821051?text=Hola%20STC%20TECHNOLOGY,%20quiero%20solicitar%20un%20servicio" target="_blank" rel="noopener">Solicitar servicio</a>
+</div></section>
+<section><div class="container">
+<h2 class="title">¿En qué podemos ayudarte?</h2>
+<p class="lead">Conoce nuestras soluciones y selecciona el servicio que necesitas. Contáctanos para consultar disponibilidad y recibir asesoría.</p>
+<div class="service-grid">
+<article class="service-card"><img src="imagenes/mantenimiento.jpg" alt="Portátil y herramientas para mantenimiento de computadores"><div class="service-copy"><span class="tag">EQUIPOS DE CÓMPUTO</span><h2>Mantenimiento de computadores</h2><p>Limpieza interna y externa, revisión de componentes, optimización y mantenimiento preventivo y correctivo.</p><a class="service-link" href="https://wa.me/573107821051?text=Hola,%20solicito%20mantenimiento%20de%20computador" target="_blank">Solicitar servicio →</a></div></article>
+<article class="service-card"><img src="imagenes/soporte.jpg" alt="Computador de escritorio para reparación y soporte"><div class="service-copy"><span class="tag">DIAGNÓSTICO Y REPARACIÓN</span><h2>Reparación y soporte técnico</h2><p>Diagnóstico y solución de fallas de hardware, software, sistema operativo, periféricos y rendimiento.</p><a class="service-link" href="https://wa.me/573107821051?text=Hola,%20necesito%20soporte%20tecnico" target="_blank">Solicitar servicio →</a></div></article>
+<article class="service-card"><img src="imagenes/redes.jpg" alt="Routers, switches y cableado de red"><div class="service-copy"><span class="tag">CONECTIVIDAD</span><h2>Redes y conectividad</h2><p>Configuración de redes cableadas e inalámbricas, Wi-Fi, routers, puntos de acceso y solución de conectividad.</p><a class="service-link" href="https://wa.me/573107821051?text=Hola,%20necesito%20ayuda%20con%20redes%20y%20conectividad" target="_blank">Solicitar servicio →</a></div></article>
+<article class="service-card"><img src="imagenes/impresoras.jpg" alt="Impresora y suministros de impresión"><div class="service-copy"><span class="tag">IMPRESIÓN</span><h2>Impresoras</h2><p>Revisión, mantenimiento y solución de problemas de impresión. Asesoría sobre consumibles y funcionamiento.</p><a class="service-link" href="https://wa.me/573107821051?text=Hola,%20necesito%20servicio%20para%20una%20impresora" target="_blank">Solicitar servicio →</a></div></article>
+<article class="service-card"><img src="imagenes/seguridad.jpg" alt="Cámaras de videovigilancia para seguridad"><div class="service-copy"><span class="tag">PROTECCIÓN</span><h2>Cámaras y seguridad</h2><p>Asesoría y configuración de cámaras, DVR y soluciones de videovigilancia para espacios y negocios.</p><a class="service-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20informacion%20sobre%20camaras%20y%20seguridad" target="_blank">Solicitar servicio →</a></div></article>
+<article class="service-card"><img src="imagenes/accesorios.jpg" alt="Accesorios tecnológicos, teclado, mouse y audífonos"><div class="service-copy"><span class="tag">TECNOLOGÍA Y ACCESORIOS</span><h2>Accesorios y asesoría</h2><p>Orientación para elegir cargadores, baterías, teclados, mouse, audífonos y otros accesorios tecnológicos.</p><a class="service-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20asesoria%20sobre%20accesorios%20tecnologicos" target="_blank">Solicitar servicio →</a></div></article>
+</div></div></section>
+<section class="soft"><div class="container"><h2 class="title">¿Por qué elegir STC TECHNOLOGY?</h2><p class="lead">Nos enfocamos en soluciones prácticas y una atención clara durante el proceso.</p><div class="benefits">
+<div class="benefit"><span>⚡</span><b>Atención oportuna</b></div><div class="benefit"><span>🛠️</span><b>Soporte profesional</b></div><div class="benefit"><span>🤝</span><b>Atención personalizada</b></div><div class="benefit"><span>🔒</span><b>Cuidado de tus equipos</b></div>
+</div></div></section>
+<section><div class="container"><div class="service-cta"><h2>¿Necesitas alguno de estos servicios?</h2><p>Escríbenos por WhatsApp y cuéntanos qué solución estás buscando.</p><a class="btn main" href="https://wa.me/573107821051?text=Hola%20STC%20TECHNOLOGY,%20quiero%20cotizar%20un%20servicio" target="_blank" rel="noopener">Hablar por WhatsApp</a></div></div></section>
+</main>
+<footer>© <span id="year"></span> STC TECHNOLOGY. Todos los derechos reservados.</footer>
+<a class="whatsapp" href="https://wa.me/573107821051?text=Hola%20STC%20TECHNOLOGY" target="_blank" rel="noopener">WhatsApp</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>

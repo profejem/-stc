@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="description" content="Artículos, accesorios y recomendaciones tecnológicas de STC Technology.">
+<title>Artículos y accesorios | STC TECHNOLOGY</title>
+<link rel="stylesheet" href="estilos.css">
+<style>
+.articles-hero{position:relative;overflow:hidden;color:#fff;padding:58px 22px;background:linear-gradient(110deg,#21103e,#4d087e 55%,#a71991)}
+.articles-hero:after{content:"";position:absolute;inset:0 0 0 auto;width:58%;background:linear-gradient(90deg,#32104f 0%,transparent 45%),url("imagenes/articulo-accesorios-banner.jpg") center/cover no-repeat;opacity:.78}
+.articles-hero .container{position:relative;z-index:1}.articles-hero h1{font-size:clamp(38px,6vw,60px);line-height:1.05;margin:8px 0}.articles-hero h1 span{color:#ffb331}
+.articles-hero p{max-width:590px;font-size:18px}.eyebrow{color:#ffd18a;text-transform:uppercase;letter-spacing:3px;font-size:12px;font-weight:800}
+.category-nav{display:flex;gap:10px;justify-content:center;flex-wrap:wrap;margin:0 auto 30px}.category-nav a{padding:10px 15px;border:1px solid #e7d9f2;border-radius:24px;text-decoration:none;color:#4e137b;background:#fff;font-weight:700;font-size:13px;box-shadow:0 4px 12px #3210520b}.category-nav a:hover{background:#f4e8fb}
+.article-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:20px}
+.article-card{overflow:hidden;border:1px solid #e8def1;border-radius:18px;background:#fff;box-shadow:0 8px 25px #32105212;transition:.2s}
+.article-card:hover{transform:translateY(-4px);box-shadow:0 14px 28px #32105220}
+.article-card img{width:100%;height:190px;object-fit:cover;display:block}
+.article-body{padding:19px}.article-label{font-size:11px;font-weight:800;letter-spacing:.7px;color:#8c279b;background:#f4eafa;padding:5px 9px;border-radius:20px}
+.article-body h2{font-size:19px;line-height:1.25;color:#4e137b;margin:12px 0 8px}.article-body p{font-size:14px;color:#625969;min-height:68px;margin:0 0 14px}
+.read-link{color:#fff;text-decoration:none;background:linear-gradient(100deg,#54108c,#a51a9c);border-radius:22px;padding:9px 15px;font-size:13px;font-weight:800;display:inline-block}
+.info-panel{display:grid;grid-template-columns:1.2fr .8fr;gap:24px;align-items:stretch}
+.info-box{padding:25px;border:1px solid #eadff1;border-radius:18px;background:#fff}.info-box h2{color:#4e137b;margin-top:0}
+.tips{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.tip{background:#f8f3fb;border-radius:12px;padding:14px;font-size:14px}.tip b{display:block;color:#54108c;margin-bottom:3px}
+.articles-cta{background:linear-gradient(110deg,#3b0b65,#85139c 65%,#d52b91);color:#fff;text-align:center;padding:34px;border-radius:22px}.articles-cta h2{margin:0 0 8px}
+@media(max-width:850px){.article-grid{grid-template-columns:repeat(2,1fr)}.info-panel{grid-template-columns:1fr}.articles-hero:after{width:65%;opacity:.25}}
+@media(max-width:560px){.article-grid{grid-template-columns:1fr}.articles-hero{padding:48px 18px}.articles-hero:after{width:100%;opacity:.18}.article-card img{height:215px}.tips{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<header><div class="nav">
+<a class="brand" href="index.html"><img src="imagenes/logo-stc.png" alt="Logotipo STC Technology"><span>STC TECHNOLOGY<small>INNOVACIÓN Y SERVICIO</small></span></a>
+<nav aria-label="Menú principal"><a href="index.html">Inicio</a><a href="servicios.html">Servicios</a><a class="active" href="articulos.html">Artículos</a><a href="nosotros.html">Nosotros</a><a href="contacto.html">Contacto</a></nav>
+</div></header>
+<main>
+<section class="articles-hero"><div class="container">
+<div class="eyebrow">Tecnología • Accesorios • Consejos</div>
+<h1>Artículos y <span>accesorios</span></h1>
+<p>Descubre soluciones tecnológicas para tu negocio y hogar. Explora recomendaciones, conoce accesorios y encuentra ideas para aprovechar mejor tus equipos.</p>
+<a class="btn main" href="https://wa.me/573107821051?text=Hola%20STC%20TECHNOLOGY,%20quiero%20asesoria%20sobre%20articulos%20tecnologicos" target="_blank" rel="noopener">Consultar por WhatsApp</a>
+</div></section>
+<section><div class="container">
+<h2 class="title">Explora nuestro contenido tecnológico</h2>
+<p class="lead">Guías y recomendaciones para elegir, utilizar y cuidar tus accesorios tecnológicos.</p>
+<div class="category-nav">
+<a href="#computo">Computadores</a><a href="#accesorios">Accesorios</a><a href="#redes">Redes</a><a href="#seguridad">Seguridad</a><a href="#impresion">Impresión</a><a href="#gaming">Gaming</a>
+</div>
+<div class="article-grid">
+<article class="article-card" id="computo"><img src="imagenes/articulo-portatiles.jpg" alt="Computador portátil moderno"><div class="article-body"><span class="article-label">COMPUTADORES</span><h2>Accesorios para mejorar tu computador</h2><p>Conoce opciones de almacenamiento, bases refrigerantes, memorias y periféricos que ayudan a mejorar el uso diario de tu equipo.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20asesoria%20para%20mejorar%20mi%20computador" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card" id="accesorios"><img src="imagenes/articulo-accesorios-banner.jpg" alt="Teclado, audífonos y mouse tecnológicos"><div class="article-body"><span class="article-label">ACCESORIOS</span><h2>Teclados, mouse y audífonos</h2><p>Encuentra accesorios para estudiar, trabajar o jugar: periféricos cómodos, opciones inalámbricas y diseños para cada necesidad.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20informacion%20sobre%20teclados,%20mouse%20y%20audifonos" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card" id="redes"><img src="imagenes/articulo-redes.jpg" alt="Router inalámbrico y antenas de red"><div class="article-body"><span class="article-label">REDES Y CONECTIVIDAD</span><h2>Mejora la señal de tu red Wi-Fi</h2><p>Aprende qué debes considerar al elegir routers, repetidores y puntos de acceso para lograr una conexión más estable.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20necesito%20asesoria%20sobre%20routers%20y%20WiFi" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card" id="seguridad"><img src="imagenes/articulo-camaras.jpg" alt="Cámaras de videovigilancia"><div class="article-body"><span class="article-label">SEGURIDAD</span><h2>Cámaras y vigilancia para tu negocio</h2><p>Conoce elementos de un sistema de videovigilancia, como cámaras, grabadores DVR y almacenamiento.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20asesoria%20sobre%20camaras%20de%20seguridad" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card" id="gaming"><img src="imagenes/articulo-gamer.jpg" alt="Accesorios gamer, computador y audífonos"><div class="article-body"><span class="article-label">GAMING</span><h2>Todo para tu espacio gamer</h2><p>Teclados, mouse, audífonos, monitores y refrigeración: revisa qué características comparar antes de elegir.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20asesoria%20sobre%20accesorios%20gamer" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card" id="impresion"><img src="imagenes/articulo-impresoras.jpg" alt="Impresora de escritorio"><div class="article-body"><span class="article-label">IMPRESIÓN</span><h2>Impresoras y consumibles</h2><p>Recomendaciones para conocer tipos de impresoras, consumibles y cuidados que ayudan a conservar la calidad de impresión.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20informacion%20sobre%20impresoras%20y%20consumibles" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card"><img src="imagenes/articulo-cables.jpg" alt="Cables de red y conectores Ethernet"><div class="article-body"><span class="article-label">CABLEADO</span><h2>Cables y conectores de red</h2><p>Identifica usos de cables Ethernet, conectores RJ45 y accesorios para instalaciones de red ordenadas y confiables.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20quiero%20asesoria%20sobre%20cables%20y%20conectores" target="_blank">Consultar artículo →</a></div></article>
+<article class="article-card"><img src="imagenes/articulo-accesorios-banner.jpg" alt="Periféricos y accesorios para escritorio"><div class="article-body"><span class="article-label">ENERGÍA Y CUIDADO</span><h2>Cargadores, baterías y refrigeración</h2><p>Verifica compatibilidad, voltaje, conectores y características antes de comprar cargadores, baterías o bases refrigerantes.</p><a class="read-link" href="https://wa.me/573107821051?text=Hola,%20necesito%20asesoria%20sobre%20cargadores%20y%20baterias" target="_blank">Consultar artículo →</a></div></article>
+</div>
+</div></section>
+<section class="soft"><div class="container info-panel">
+<div class="info-box"><h2>Consejos antes de comprar accesorios</h2><div class="tips">
+<div class="tip"><b>Compatibilidad</b>Verifica modelo, puertos y sistema operativo.</div>
+<div class="tip"><b>Especificaciones</b>Compara velocidad, capacidad y potencia.</div>
+<div class="tip"><b>Calidad</b>Prefiere productos con garantía y ficha técnica.</div>
+<div class="tip"><b>Uso real</b>Elige según tus tareas y presupuesto.</div>
+</div></div>
+<div class="info-box"><h2>¿Necesitas asesoría?</h2><p>Cuéntanos qué equipo tienes y qué accesorio buscas. Podemos orientarte para identificar opciones compatibles con tus necesidades.</p><a class="read-link" href="contacto.html">Ir a contacto →</a></div>
+</div></section>
+<section><div class="container"><div class="articles-cta"><h2>Encuentra el accesorio adecuado</h2><p>Comunícate con STC TECHNOLOGY y solicita orientación.</p><a class="btn main" href="https://wa.me/573107821051?text=Hola%20STC%20TECHNOLOGY,%20quiero%20asesoria%20para%20elegir%20un%20accesorio" target="_blank" rel="noopener">Solicitar asesoría por WhatsApp</a></div></div></section>
+</main>
+<footer>© <span id="year"></span> STC TECHNOLOGY. Todos los derechos reservados.</footer>
+<a class="whatsapp" href="https://wa.me/573107821051?text=Hola%20STC%20TECHNOLOGY" target="_blank" rel="noopener">WhatsApp</a>
+<script>document.getElementById('year').textContent=new Date().getFullYear()</script>
+</body></html>
